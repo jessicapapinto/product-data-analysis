@@ -11,14 +11,14 @@ The analysis uses SQL Server to explore the database, assess data quality, defin
 Power BI will then be used to visualize the main findings. 
 The goal is to understand the state of the product catalog, identify data quality and publication issues, and transform product data into insights that can support operational and business decisions.
 
-# 2. Business Context
+## 2. Business Context
 
 Organizations managing large product catalogs need accurate, complete and consistent product information.
 Product data can involve multiple dimensions, including product classification, brands, attributes, suppliers, inventory, pricing and publication across different channels.
 Poor or incomplete product information can prevent products from being published successfully and create operational inefficiencies.
 This project simulates the role of a Product Data Analyst responsible for exploring this data, monitoring its quality and identifying opportunities to improve the product information management process.
 
-# 3. Dataset Description
+## 3. Dataset Description
 
 The project uses `ProductDataTraining`, a synthetic Microsoft SQL Server database created for data analysis training and portfolio purposes.
 The database simulates a product information environment containing interconnected data related to areas such as:
@@ -40,7 +40,7 @@ The database is organized into four main schemas:
 | DataQuality | Validation rules and detected product data issues |
 The database does not contain real company, customer, employee or proprietary data.
 
-# 4. Analysis Objectives
+## 4. Analysis Objectives
 
 The analysis focuses on understanding the product catalog and evaluating the quality and readiness of product information.
 The main objectives are to:
@@ -51,7 +51,7 @@ The main objectives are to:
 5. Explore patterns across brands, categories and suppliers.
 6. Identify areas where product data quality or operational processes could be improved.
 
-# 5. SQL Analysis
+## 5. SQL Analysis
 
 ### 5.1 Catalog Structure and Pricing
 
@@ -103,7 +103,7 @@ The analysis includes:
 - Published products with recorded data quality issues
 - Products that have not yet reached `Published` status
 
-# 6. SQL Techniques
+## 6. SQL Techniques
 
 The project demonstrates the use of:
 `INNER JOIN` and `LEFT JOIN`
@@ -115,7 +115,7 @@ Window functions such as `ROW_NUMBER()`, `AVG() OVER()` and `LAG()`
 `EXISTS` and `NOT EXISTS`
 Variables, rankings and percentage calculations
 
-# 7. Repository Structure
+## 7. Repository Structure
 
 ```text
 .
@@ -129,19 +129,19 @@ Variables, rankings and percentage calculations
 `product-catalog-analysis.sql` contains the SQL queries used to explore, validate and analyse the product data.
 `product-catalog-dashboard.pbix` contains the interactive Power BI dashboard and its visual analysis.
 
-# 8. Tools
+## 8. Tools
 
 Microsoft SQL Server — database management and analysis
 Power BI — dashboard development and data visualization
 
-# 9. Limitations
+## 9. Limitations
 
 The database contains synthetic data and does not represent the performance of a real organization.
 Publication status shows the workflow outcome but does not always explain the reason for a rejection or delay.
 A recorded issue indicates a potential data quality problem that may require further investigation.
 Base price is used to estimate inventory value and may not represent the final selling price.
 
-# 10. Next Steps
+## 10. Next Steps
 
 - Add the database creation and population script to the repository
 - Validate the final queries against the complete database schema
