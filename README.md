@@ -1,5 +1,5 @@
 ## Product Data Analysis
-* SQL Server Analysis & Power BI Dashboard *
+*SQL Server Analysis & Power BI Dashboard*
 
 # Product Catalog | Data Quality & Business Analysis
 
