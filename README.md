@@ -3,7 +3,7 @@
 
 # Product Catalog | Data Quality & Business Analysis
 
-# 1. Introduction
+## 1. Introduction
 
 Product data plays an important role in how companies manage and distribute product information across brands, categories, suppliers and sales channels.
 This project analyzes a synthetic product database designed to simulate a real-world Product Data environment.
@@ -53,7 +53,7 @@ The main objectives are to:
 
 # 5. SQL Analysis
 
-# 5.1 Catalog Structure and Pricing
+### 5.1 Catalog Structure and Pricing
 
 The catalog analysis examines how products are distributed across brands and categories and explores the main pricing patterns.
 The analysis includes:
@@ -65,7 +65,7 @@ The analysis includes:
 - Difference between each product price and its category average
 - Comparison with the previous product price inside the same category
 
-# 5.2 Product Data Completeness
+### 5.2 Product Data Completeness
 
 Completeness checks are used to identify products that may not contain all the information required for publication or sale.
 The analysis includes:
@@ -74,7 +74,7 @@ The analysis includes:
 - Product variants with a missing GTIN
 - Products without related catalog records
 
-# 5.3 Data Quality Issues
+### 5.3 Data Quality Issues
 
 Detected product issues are connected to their validation rules to understand their volume, distribution and severity.
 The analysis includes:
@@ -84,7 +84,7 @@ The analysis includes:
 - Products with the greatest number of high-severity issues
 - Catalog products with and without recorded data quality issues
 
-# 5.4 Inventory Analysis
+### 5.4 Inventory Analysis
 
 Inventory data is analyzed to identify availability issues and estimate the value represented by the current stock.
 The analysis includes:
@@ -92,7 +92,7 @@ The analysis includes:
 - Total estimated inventory value
 - Categories with the highest total stock quantity
 
-# 5.5 Channel Publication Analysis
+### 5.5 Channel Publication Analysis
 
 Product publication records are analyzed to understand how successfully products are reaching different sales channels.
 The analysis includes:
