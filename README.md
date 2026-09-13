@@ -1,7 +1,7 @@
-## Product Data Analysis
+# Product Data Analysis
 *SQL Server Analysis & Power BI Dashboard*
 
-# Product Catalog | Data Quality & Business Analysis
+## Product Catalog | Data Quality & Business Analysis
 
 ## 1. Introduction
 
