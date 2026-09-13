@@ -1,5 +1,5 @@
 # Product Data Analysis
-*SQL Server Analysis & Power BI Dashboard*
+*SQL Server Analysis*
 
 ## Product Catalog | Data Quality & Business Analysis
 
@@ -8,7 +8,6 @@
 Product data plays an important role in how companies manage and distribute product information across brands, categories, suppliers and sales channels.
 This project analyzes a synthetic product database designed to simulate a real-world Product Data environment.
 The analysis uses SQL Server to explore the database, assess data quality, define relevant metrics and investigate patterns across the product catalog.
-Power BI will then be used to visualize the main findings. 
 The goal is to understand the state of the product catalog, identify data quality and publication issues, and transform product data into insights that can support operational and business decisions.
 
 ## 2. Business Context
@@ -122,17 +121,14 @@ Variables, rankings and percentage calculations
 ├── README.md
 ├── dProductDataTraining.bak
 ├── product-catalog-analysis.sql
-└── product-catalog-dashboard.pbix
 ```
 `README.md` provides an overview of the project, business context, dataset, analysis objectives and methodology.
 `dProductDataTraining.bak` contains a backup of the synthetic SQL Server database used in the project, allowing the analysis to be reproduced and the underlying data to be explored.
 `product-catalog-analysis.sql` contains the SQL queries used to explore, validate and analyse the product data.
-`product-catalog-dashboard.pbix` contains the interactive Power BI dashboard and its visual analysis.
 
 ## 8. Tools
 
 Microsoft SQL Server — database management and analysis
-Power BI — dashboard development and data visualization
 
 ## 9. Limitations
 
@@ -145,5 +141,4 @@ Base price is used to estimate inventory value and may not represent the final s
 
 - Add the database creation and population script to the repository
 - Validate the final queries against the complete database schema
-- Develop an interactive Power BI dashboard
 - Document the main findings and operational recommendations
